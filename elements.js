@@ -105,7 +105,7 @@ var ElementFooter = `<footer>
         </div>
     </div>
     <div class="copy" style="margin: 0px !important;">
-        <p>Copyright &COPY; Ecole 241 <span id="annee"></span></p>
+        <p style="text-align:center;" class="cop">Copyright &COPY; <span id="annee"></span> Tous droits reservés par <br> Ecole 241 </p>
     </div>
 </footer>`;
 

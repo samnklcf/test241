@@ -714,6 +714,12 @@ nav ul li ul li {
   }
 }
 
+@media screen and (max-width:500px) {
+  .cop {
+    font-size: 12px;
+  }
+}
+
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -957,6 +963,7 @@ nav ul li ul li {
 .copy {
   width: 100%;
   height: 60px;
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
