@@ -7,7 +7,6 @@
 
 body {
   box-sizing: border-box !important;
-
 }
 
 html {
@@ -28,7 +27,6 @@ html {
   align-items: center;
   position: absolute;
   top: 9%;
-
 }
 
 nav {
@@ -57,7 +55,6 @@ ul li a {
   box-sizing: border-box !important;
   background-size: auto;
   background-attachment: fixed;
-
 }
 
 .bouton {
@@ -266,7 +263,6 @@ select {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   color: #fff;
-
 }
 
 option {
@@ -400,7 +396,6 @@ footer a {
   border-radius: 20px;
   display: flex;
   justify-content: center;
-
 }
 
 .brand a,
@@ -466,7 +461,6 @@ nav ul li ul li a:visited:hover {
   border-radius: 50px;
 }
 
-
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
   padding-left: 4px;
@@ -517,7 +511,6 @@ nav ul li ul li {
   color: white !important;
   background-color: #0F206D !important;
 }
-
 
 /* Mobile navigation */
 .nav-mobile {
@@ -574,7 +567,6 @@ nav ul li ul li {
   nav ul li a {
     padding: 15px;
     line-height: 20px;
-
   }
 
   nav ul li ul li a {
@@ -590,7 +582,6 @@ nav ul li ul li {
   .nav-list {
     display: block !important;
   }
-
 }
 
 @media screen and (max-width:1530px) {
@@ -646,7 +637,6 @@ nav ul li ul li {
     width: 250px;
     bottom: 18rem;
   }
-
 }
 
 @media screen and (max-width:1199px) {
@@ -796,7 +786,6 @@ nav ul li ul li {
 .trailer.active {
   visibility: visible;
   opacity: 1;
-
 }
 
 .trailer.active form {
@@ -839,19 +828,14 @@ nav ul li ul li {
 }
 
 #form {
-
   border-radius: 0px;
   position: relative;
-
 }
 
 #form h3 {
   color: white;
   font-weight: 900;
   margin-top: 40px;
-
-
-
 }
 
 #form h6 {
@@ -874,7 +858,6 @@ nav ul li ul li {
   /* background-color: #0F206D; */
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-
 }
 
 @media screen and (max-width:500px) {
@@ -890,11 +873,11 @@ nav ul li ul li {
     justify-content: center;
   }
 
-  /* #form {
-    padding: 20px 0px !important;
 
-} */
+
+  /* #form{padding: 20px 0px !important;}*/
 }
+
 
 
 .sortir {
@@ -910,22 +893,20 @@ nav ul li ul li {
 
 @media screen and (max-width:798px) {
   .nav-dropdown {
-    background-color: rgb(255, 255, 255) !important;
-
-
+    background-color: black !important;
   }
 
   .nav-list {
-    background-color: #fff;
+    background-color: black;
   }
 
   .nav-list li a {
-    color: #0F206D !important;
+    color: white !important;
     /* color: rgb(251, 22, 22); */
   }
 
   .nav-dropdown-list {
-    background-color: #fff;
+    background-color: black;
   }
 
   nav ul li a {
@@ -948,8 +929,6 @@ nav ul li ul li {
     border-radius: 50px;
   }
 
-
-
   nav ul li a:hover,
   nav ul li a:visited:hover {
     background: #0F206D;
@@ -970,11 +949,9 @@ nav ul li ul li {
   nav ul li ul li a:visited:hover {
     /* background: rgb(15, 32, 109); */
     background-color: #fa161e;
-
     color: #ffffff;
     border-radius: 50px;
   }
-
 }
 
 .copy {
