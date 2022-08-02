@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur Ecole 241 Business</title>
+    <link rel="shortcut icon" style="width: 20px; height: 50px" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="css/aos/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="section-bg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100;1,400&display=swap');
+    </style>
+    <div id="pop"></div>
+
+    <section class="section-bg">
+        <header style="height:100vh ;">
+            <div class="centrer">
+                <div class="container">
+                    <div class="navigation align-items-center">
+                        <div id="navig"></div>
+                    </div>
+                    <div class="container-fluid d-flex align-items-center width90*" style="height: 80vh;color:white">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h1 class="header-h1-style" style="color: skyblue;">Bienvenue dans le département <span
+                                        style="color: white;">Management de projet</span></h1>
+                                <p class="header-p-style">Aucune formation n'est actuellement disponible dans ce
+                                    département. <br>Si vous souhaitez vous inscrire à l'une des formations de ce
+                                    département, veuillez nous laissez vos informations en remplissant le formulaire.
+                                </p>
+                                <a href="index.html" class="btn bouton">Remplir le formulaire</a>
+                            </div>
+                            <div class="col-lg-5">
+                                <div>
+                                    <img src="img/earth.png" alt="" width="400px" class="globe-img">
+                                </div>
+                                <div>
+                                    <img src="img/business-3d-man-lying-on-stomach-with-laptop.png" alt="" width="450px"
+                                        class="globe-img2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+        </header>
+    </section>
+    <div id="footer"></div>
+    <!-- ------------------------------Script------------------------------------------------------ -->
+    <script src="./elements.js"></script>
+    <!-- ----------------------------------------------------------------------------------------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="css/aos/aos.js"></script>
+    <script src="./js/contact.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+
+    <script type="text/javascript">
+        emailjs.init('tMVN8O-dfxJshKIMd')
+    </script>
+
+    <script src="./js/app.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script>
+            (function ($) { // Begin jQuery
+                $(function () { // DOM ready
+                    // If a link has a dropdown, add sub menu toggle.
+                    $('nav ul li a:not(:only-child)').click(function (e) {
+                        $(this).siblings('.nav-dropdown').toggle();
+                        // Close one dropdown when selecting another
+
+                    });
+                    $('nav ul li ul li a:not(:only-child)').click(function (e) {
+                        $(this).siblings('.nav-dropdown-list').toggle();
+                        // Close one dropdown when selecting another
+                        $('.nav-dropdown-list').not($(this).siblings()).hide();
+                        e.stopPropagation();
+                    });
+                    // Clicking away from dropdown will remove the dropdown class
+                    /*$('html').click(function() {
+                      $('.nav-dropdown').hide();
+                      $('.nav-dropdown-list').hide();
+                    });*/
+                    // Toggle open and close nav styles on click
+                    $('#nav-toggle').click(function () {
+                        $('nav ul').slideToggle();
+                    });
+                    // Hamburger to X toggle
+                    $('#nav-toggle').on('click', function () {
+                        this.classList.toggle('active');
+                    });
+                }); // end DOM ready
+            })(jQuery); // end jQuery
+    </script>
+</body>
+
+</html>
